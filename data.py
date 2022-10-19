@@ -22,3 +22,12 @@ class Data:
         "phone_number": "0542252598",
         "email": "pablikmanshirov1998@gmail.com"
     }
+    
+    uncle_dima = {
+        "phone_number": "0545725711",
+        "email": "realtimedima@gmail.com"
+    }
+    
+    big_daddy_benny = {
+        "email": "bennyc@rt-ed.co.il"
+    }
