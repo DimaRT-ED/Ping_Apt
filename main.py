@@ -112,6 +112,9 @@ if __name__ == '__main__':
     if all_req_msg != '':
         send_sms(all_req_msg, Data.king_pablik["phone_number"])
         send_mail(all_req_msg, Data.king_pablik["email"], "Website is not uploaded")
+        send_sms(all_req_msg, Data.uncle_dima["phone_number"])
+        send_mail(all_req_msg, Data.uncle_dima["email"], "Website is not uploaded")
+        send_mail(all_req_msg, Data.big_daddy_benny["email"], "Website is not uploaded")
         file_write("0")
         exit()
 
@@ -122,4 +125,7 @@ if __name__ == '__main__':
     if rotations == 10:
         send_sms("10 Consecutive Tests Has Ran Successfully! :)", Data.king_pablik["phone_number"])
         send_mail("10 Consecutive Tests Has Ran Successfully! :)", Data.king_pablik["email"], "Tests Ran Successfully")
+        send_sms("10 Consecutive Tests Has Ran Successfully! :)", Data.uncle_dima["phone_number"])
+        send_mail("10 Consecutive Tests Has Ran Successfully! :)", Data.uncle_dima["email"], "Tests Ran Successfully")
+        send_mail("10 Consecutive Tests Has Ran Successfully! :)", Data.big_daddy_benny["email"], "Tests Ran Successfully")
         file_write("0")
